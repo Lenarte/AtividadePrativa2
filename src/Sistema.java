@@ -39,7 +39,7 @@ public class Sistema {
 
                 break;
             case 2:
-                String cor;
+
                 String origem;
 
                 System.out.println("\nNovo Suco:");
@@ -49,10 +49,10 @@ public class Sistema {
                 System.out.print("Nome da fruta: ");
                 nome = Console.lerString();
 
-                System.out.print("Cor:");
-                cor = Console.lerString();
+                System.out.print("Qual a origem do produto:");
+                origem = Console.lerString();
 
-                Suco s = new Suco(codigo, nome, cor);
+                Suco s = new Suco(codigo, nome, origem);
 
                 CadastroEstoque.cadastrar(s);
 

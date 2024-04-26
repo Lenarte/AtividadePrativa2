@@ -1,25 +1,25 @@
 public class Suco extends Estoque {
 
-    private String sabor;
+    private String origem;
 
     public Suco() {
     }
 
     public Suco(int codigoProduto, String nome, String sabor) {
         super(codigoProduto, nome);
-        this.sabor = sabor;
+        this.origem = sabor;
     }
 
-    public String getSabor() {
-        return sabor;
+    public String getOrigem() {
+        return origem;
     }
 
-    public void setSabor(String sabor) {
-        this.sabor = sabor;
+    public void setOrigem(String sabor) {
+        this.origem = sabor;
     }
 
     @Override
     public String toString() {
-        return super.toString() + "\nSabor: " + sabor;
+        return super.toString() + "\nOrigem: " + origem;
     }
 }
