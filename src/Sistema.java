@@ -118,7 +118,7 @@ public class Sistema {
 
                 CadastroEstoque.excluirTodosEstoques();
 
-                System.out.println("\nTodos os produtos foram excluídos do estoque.");
+                System.out.println("\nTodos os produtos foram excluídos do estoque !!!");
 
                 break;
             
