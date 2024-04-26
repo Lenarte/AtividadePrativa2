@@ -14,8 +14,8 @@ public class Suco extends Estoque {
         return origem;
     }
 
-    public void setOrigem(String sabor) {
-        this.origem = sabor;
+    public void setOrigem(String origem) {
+        this.origem = origem;
     }
 
     @Override
