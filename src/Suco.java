@@ -5,9 +5,9 @@ public class Suco extends Estoque {
     public Suco() {
     }
 
-    public Suco(int codigoProduto, String nome, String sabor) {
+    public Suco(int codigoProduto, String nome, String origem) {
         super(codigoProduto, nome);
-        this.origem = sabor;
+        this.origem = origem;
     }
 
     public String getOrigem() {
