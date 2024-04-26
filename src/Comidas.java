@@ -20,6 +20,6 @@ public class Comidas extends Estoque {
 
     @Override
     public String toString() {
-        return super.toString() + "Nome do Produto: " + nomeDoProduto;
+        return super.toString() + "\nNome do Produto: " + nomeDoProduto;
     }
 }

@@ -31,7 +31,7 @@ public class Estoque {
 
     @Override
     public String toString() {
-        return "\nCodigo do Produto: " + codigoProduto + "Nome :" + nome;
+        return "\nCodigo do Produto: " + codigoProduto + "\nNome do Alimento: " + nome;
     }
     
 }

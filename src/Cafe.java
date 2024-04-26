@@ -1,14 +1,15 @@
 public class Cafe extends Estoque {
 
     private String nomeDoProduto;
+    
 
     public Cafe () {
 
     }
     
-    public Cafe(int codigoProduto, String nome, String nomeDoProduto) {
+    public Cafe(int codigoProduto, String nomeF, String nomeDoProduto) {
 
-        super(codigoProduto, nome);
+        super(codigoProduto, nomeF);
         this.nomeDoProduto = nomeDoProduto;
 
     }
@@ -24,7 +25,7 @@ public class Cafe extends Estoque {
     @Override
     public String toString() {
         
-        return super.toString() + "Nome do Produto: " + nomeDoProduto;
+        return super.toString() + "\nNome do Produto: " + nomeDoProduto;
     }
 
 

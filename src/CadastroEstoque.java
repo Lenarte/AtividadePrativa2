@@ -30,5 +30,15 @@ public class CadastroEstoque {
 
         return null;
     }
+
+    public static void excluirEstoque(Estoque estoqueExcluir) {
+        listaEstoques.remove(estoqueExcluir);
+    }
+
+    public static void excluirTodosEstoques() {
+        listaEstoques.clear();
+    }
+    
+
     
 }

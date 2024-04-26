@@ -20,6 +20,6 @@ public class Suco extends Estoque {
 
     @Override
     public String toString() {
-        return super.toString() + "Sabor: " + sabor;
+        return super.toString() + "\nSabor: " + sabor;
     }
 }
